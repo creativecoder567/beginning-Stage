@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sarath.myapplication.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src=""/>
+    <Button
+        android:onClick="process"
+        android:text="Maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLaunchMap"/>
+
+    <Button
+        android:onClick="process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Market"
+        android:id="@+id/btnMarket"/>
+    <Button
+        android:onClick="process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Mail"
+        android:id="@+id/btnMail"/>
+</LinearLayout>
